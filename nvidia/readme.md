@@ -30,4 +30,14 @@ xrandr --setprovideroutputsource modesetting NVIDIA-0
 xrandr --auto
 ```
 
-4) Reboot
+4) To fix screen tearing, add `nvidia-drm.modeset=1` kernel parameter.
+
+```
+cd /etc/default
+mc grub
+# Change following:
+GRUB_CMDLINE_LINUX_DEFAULT="..... nvidia-drm.modeset=1"
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+5) Reboot
