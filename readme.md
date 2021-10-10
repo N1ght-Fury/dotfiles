@@ -1,6 +1,6 @@
 ## Dotfiles
 
-Contains dotfiles, themes and settings for my Arch system.
+Contains dotfiles, themes and settings of my Arch system.
 
 ### Themes
 
