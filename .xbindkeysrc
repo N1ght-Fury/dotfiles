@@ -56,10 +56,10 @@
 "pactl set-sink-volume "$(cat .audio_sink)" -5%"
   shift + b:5
 
-"change_sink"
+"./bin/change_sink.sh"
   control + shift + 5
 
-"player_control"
+"./bin/player_control.sh"
   shift + b:2
 
 "playerctl previous"
