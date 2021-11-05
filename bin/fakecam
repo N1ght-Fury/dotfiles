@@ -1,0 +1,17 @@
+#!/bin/sh
+
+MODULE="v4l2loopback"
+
+if lsmod | grep "$MODULE" &> /dev/null ; then
+  echo "$MODULE is loaded!"
+  echo "Running face cam"
+else
+  echo "$MODULE is not loaded!"
+  echo "Loading kernel module"
+  sudo modprobe v4l2loopback devices=1 exclusive_caps=1 video_nr=2 card_label="fake-cam"
+fi 
+
+fake.py -b /home/croco/.build/Linux-Fake-Background-Webcam/background.jpg --no-foreground --no-ondemand --tile-background
+
+# With blur
+# alias fake-cam-blur='fake.py -b /home/croco/Documents/Programming/My_Repos/linux-pictures/non-distro/gitpornhub.png --no-foreground --no-ondemand --tile-background --no-background --background-blur 30'
