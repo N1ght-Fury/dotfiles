@@ -11,7 +11,15 @@ else
   sudo modprobe v4l2loopback devices=1 exclusive_caps=1 video_nr=2 card_label="fake-cam"
 fi 
 
-fake.py -b /home/croco/.build/Linux-Fake-Background-Webcam/background.jpg --no-foreground --no-ondemand --tile-background
+fake.py -b /hdd/Pictures/Firefox/ofis.jpg --no-foreground --no-ondemand --tile-background
+
+# Options
+# /hdd/Pictures/Firefox/city_1.jpeg
+# /hdd/Pictures/Firefox/city_2.jpeg
+# /hdd/Pictures/Firefox/ofis.jpg
+# /hdd/Pictures/Firefox/One_More_Time.png
+
+#/home/croco/.build/Linux-Fake-Background-Webcam/background.jpg
 
 # With blur
 # alias fake-cam-blur='fake.py -b /home/croco/Documents/Programming/My_Repos/linux-pictures/non-distro/gitpornhub.png --no-foreground --no-ondemand --tile-background --no-background --background-blur 30'
