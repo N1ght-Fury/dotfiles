@@ -59,7 +59,7 @@
 "./.bin/change_sink.sh"
   control + shift + 5
 
-"playerctl play-pause"
+"./.bin/player_control.sh"
   shift + b:2
 
 "playerctl previous"
