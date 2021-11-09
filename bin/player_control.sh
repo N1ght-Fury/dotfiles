@@ -1,11 +1,13 @@
-playerStatus="$(playerctl status)"
+#playerStatus="$(playerctl status)"
 
 #echo $playerStatus > myawesomefile.txt
 
-if [ "$playerStatus" = "Playing" ]; then
+#if [ "$playerStatus" = "Playing" ]; then
 	#echo "Pausing music"
-	playerctl pause
-else
+#	playerctl pause
+#else
 	#echo "Playing music"
-	playerctl play
-fi
+#	playerctl play
+#fi
+
+playerctl play-pause
