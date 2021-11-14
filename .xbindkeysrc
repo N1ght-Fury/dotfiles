@@ -50,6 +50,9 @@
 #"xterm"
 #  control + b:2
 
+"./.bin/NormCap-Linux.AppImage"
+  control + shift + p
+
 "pactl set-sink-volume "$(cat .audio_sink)" +5%"
   shift + b:4
 
