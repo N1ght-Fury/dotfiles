@@ -1,0 +1,6 @@
+#!/bin/sh
+# ip 127.0.0.1
+# port 5432
+cd /home/croco/.envs/pgadmin4
+source bin/activate
+pgadmin4
