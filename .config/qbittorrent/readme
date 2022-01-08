@@ -1,1 +1,2 @@
-Location: /home/croco/.local/share/qBittorrent/nova3/engines
+Location Engines: /home/croco/.local/share/qBittorrent/nova3/engines
+Location Themes: /home/croco/.config/qBittorrent/themes
