@@ -27,4 +27,9 @@
     "liveServer.settings.donotVerifyTags": true,
     "window.zoomLevel": 1,
     "terminal.integrated.defaultProfile.linux": "zsh",
+    "telemetry.telemetryLevel": "off",
+    "dart.flutterSdkPath": "/home/croco/.flutter/flutter",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "go.toolsManagement.autoUpdate": true,
 }
