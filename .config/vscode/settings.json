@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Default Dark+",
     "[dart]": {
         "editor.formatOnSave": false,
         "editor.formatOnType": true,
@@ -12,24 +11,24 @@
     },
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontSize": 16,
-    "dart.lineLength": 1000,
+    "dart.lineLength": 120,
     "diffEditor.ignoreTrimWhitespace": false,
     "explorer.confirmDragAndDrop": false,
     "dart.warnWhenEditingFilesOutsideWorkspace": false,
     /* "terminal.integrated.fontFamily": "Hack Nerd Font", */
+    /* "terminal.integrated.gpuAcceleration": "off", */
     "terminal.integrated.fontFamily": "'Source Code Pro for Powerline', 'Hack Nerd Font'",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 12,
     "dart.debugSdkLibraries": false,
     "editor.codeLens": false,
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
     "liveServer.settings.donotVerifyTags": true,
-    "window.zoomLevel": 1,
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "telemetry.telemetryLevel": "off",
     "dart.flutterSdkPath": "/home/croco/.flutter/flutter",
+    "telemetry.telemetryLevel": "off",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "go.toolsManagement.autoUpdate": true,
+    "window.zoomLevel": 1,
 }
