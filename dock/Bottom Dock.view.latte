@@ -42,6 +42,10 @@ plugin=org.kde.plasma.kickerdash
 [Containments][13][Applets][111][Configuration]
 PreloadWeight=0
 
+[Containments][13][Applets][111][Configuration][ConfigDialog]
+DialogHeight=555
+DialogWidth=720
+
 [Containments][13][Applets][111][Configuration][General]
 favoriteSystemActions=logout
 favoritesPortedToKAstats=true
@@ -51,7 +55,7 @@ immutability=1
 plugin=org.kde.plasma.minimizeall
 
 [Containments][13][Applets][141][Configuration]
-PreloadWeight=84
+PreloadWeight=52
 
 [Containments][13][Applets][40]
 immutability=1
@@ -63,7 +67,7 @@ PreloadWeight=0
 [Containments][13][Applets][40][Configuration][General]
 hoverAction=PreviewWindows
 isInLatteDock=true
-launchers59=applications:firefox.desktop,applications:chromium.desktop,applications:discord.desktop,applications:org.kde.konsole.desktop,applications:Alacritty.desktop,applications:insomnia.desktop,applications:org.gnome.Lollypop.desktop,applications:visual-studio-code.desktop,applications:org.kde.kate.desktop,applications:teams.desktop,applications:org.kde.kcalc.desktop,applications:io.github.quodlibet.QuodLibet.desktop,file:///latte-separator1.desktop,applications:org.kde.dolphin.desktop,applications:systemsettings.desktop
+launchers59=applications:firefox.desktop,applications:chromium.desktop,applications:discord.desktop,applications:org.kde.konsole.desktop,applications:visual-studio-code.desktop,applications:org.kde.kate.desktop,applications:teams.desktop,applications:org.kde.plasma-systemmonitor.desktop,applications:org.kde.kcalc.desktop,applications:tauonmb.desktop,file:///latte-separator1.desktop,applications:org.kde.dolphin.desktop,applications:systemsettings.desktop
 leftClickAction=CycleThroughTasks
 
 [Containments][13][ConfigDialog]
@@ -82,7 +86,7 @@ iconSize=70
 inConfigureAppletsMode=true
 panelShadows=false
 panelSize=90
-screenEdgeMargin=0
+screenEdgeMargin=-1
 shadowSize=40
 shadows=All
 shadowsUpgraded=true
@@ -94,12 +98,14 @@ zoomLevel=3
 [Containments][13][Indicator]
 customType=
 enabled=true
-type=org.kde.latte.plasma
+type=org.kde.latte.default
 
 [Containments][13][Indicator][org.kde.latte.default][General]
+activeStyle=Dot
 enabledForApplets=false
+lengthPadding=0.1
 minimizedTaskColoredDifferently=true
-thickMargin=0.02
+thickMargin=0.05
 
 [Containments][13][Indicator][org.kde.latte.plasma][General]
 lengthPadding=0.1
