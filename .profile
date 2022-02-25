@@ -16,14 +16,9 @@ alias sub-get='sub-get.sh'
 alias start-postgr='systemctl start postgresql.service'
 alias stop-postgr='systemctl stop postgresql.service'
 alias phone-ss='adb exec-out screencap -p >'
+alias pacman-cache-clean='sudo paccache -rk 2'
 alias ytdl-mp3="yt-dlp -f 'ba' -x --audio-format mp3"
 alias ytdl-mp4-med='yt-dlp -f "bv*[height=720]+ba"'
 alias ytdl-mp4-best='yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best"'
 alias ytdl-playlist='yt-dlp -f "bv*[height=1080]+ba" --download-archive videos.txt'
 alias ytdl-channel='yt-dlp -f "bv*[height=720]+ba" --download-archive videos.txt'
-
-# Confirmations
-alias mv='mv -i'
-alias cp='cp -i'
-alias rm='rm -i'
-alias ln='ln -i'
