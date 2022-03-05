@@ -1,7 +1,7 @@
 setup() {
 	re='^[0-9]+$'
-	username=$(sed -n '1p' '/home/croco/Documents/Notes/opensubtitles.txt')
-	password=$(sed -n '3p' '/home/croco/Documents/Notes/opensubtitles.txt')
+	username=$(sed -n '1p' '/hdd/Documents/Notes/opensubtitles.txt')
+	password=$(sed -n '3p' '/hdd/Documents/Notes/opensubtitles.txt')
 }
 
 setup
