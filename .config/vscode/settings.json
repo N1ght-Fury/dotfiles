@@ -18,7 +18,7 @@
     /* "terminal.integrated.fontFamily": "Hack Nerd Font", */
     /* "terminal.integrated.gpuAcceleration": "off", */
     "terminal.integrated.fontFamily": "'Source Code Pro for Powerline', 'Hack Nerd Font'",
-    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontSize": 14,
     "dart.debugSdkLibraries": false,
     "editor.codeLens": false,
     "workbench.editorAssociations": {
