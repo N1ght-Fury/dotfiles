@@ -1,0 +1,9 @@
+/etc/grub.d/40_custom
+
+#!/bin/sh
+exec tail -n +3 $0
+
+menuentry "Windows 10" --class windows --class os {
+    search --no-floppy --set=root --fs-uuid "73CD-F74D"
+    chainloader /EFI/Microsoft/Boot/bootmgfw.efi
+}
